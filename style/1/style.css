@@ -1,0 +1,86 @@
+/*Текст*/
+	h1{
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size:50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+	} 
+	h2{
+    font-family: Verdana, Geneva, sans-serif; 
+	font-size:40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+	} 
+  
+	p {
+font-family: Verdana, Geneva, sans-serif; 
+font-size: 16px;
+margin-bottom: 10px;} 
+  
+	b {
+font-family: Verdana, Geneva, sans-serif; 
+font-size: 16px;
+padding-top: 20px;
+p
+	} 
+	a {
+font-family: Verdana, Geneva, sans-serif; 
+font-size: 16px;
+color: black;
+padding-top: 20px;
+	 }
+	ol{
+font-family: Verdana, Geneva, sans-serif; 
+font-size: 16px;
+}
+	
+	ul{
+font-family: Verdana, Geneva, sans-serif; 
+font-size: 16px;
+	}
+  
+/*Изображения*/
+img{ 
+max-width: 100%; 
+max-height: 100%;
+border: 1px solid;
+margin-bottom: 10px;
+}
+ /*Кнопки*/
+ .button type{
+font-family: Verdana, Geneva, sans-serif; 
+}
+ 	
+.price li {
+ font-family: Verdana, Geneva, sans-serif; 
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+.container{
+ font-family: Verdana, Geneva, sans-serif; }
+ 
+ .row item {
+ font-family: Verdana, Geneva, sans-serif; 
+ margin-bottom: 100px;
+ }
+ .col{
+  font-family: Verdana, Geneva, sans-serif; 
+  margin-top: 30px;
+  margin-bottom: 20px;}
+ 
+ .contact-form{
+	font-family: Verdana, Geneva, sans-serif; 
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+	}
+.contact-form placeholder{
+
+	
+}
+input{
+width: 250px;
+}
+textarea {
+ width: 250px;
+}

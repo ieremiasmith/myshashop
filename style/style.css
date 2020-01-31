@@ -1,0 +1,219 @@
+/*Общее*/
+h1{
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size:50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+	} 
+h2{
+    font-family: Verdana, Geneva, sans-serif; 
+	font-size:40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+	} 
+p {
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+a {
+	}
+/*CART*/
+.contents a{
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 16px;
+	color: black;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.item_line a{
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 16px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.small_image img {
+	max-width: 25%; 
+	max-height: 25%;
+	border: 1px solid;
+	margin-bottom: 10px;
+}
+
+.delete_button button{
+	background-color: black;
+	color: white;	
+	border-color: white;
+	border: 1px solid;
+}
+
+.order_form textarea{
+	width: 250px;
+}
+
+.order_comment {
+}
+
+.order_button button{
+	margin-top: 20px;
+	background-color: black;
+	color: white;
+	border-color: white;
+	border: 1px solid;	
+}
+
+/*CONTACT*/ 
+.email a{
+	color: black;
+}
+
+.email_window input{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 250px;
+}
+
+.message_text textarea{
+	margin-bottom: 20px;
+	width: 250px;
+}
+
+.sent_button button{
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;
+	border-color: white;
+	border: 1px solid;}
+
+/*ITEM*/
+.full_description {
+}
+.text_description {
+	margin-top: 20px;
+	margin-bottom: 10px;}
+.description_price {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;}
+
+.item_cart_button {
+	display: flex;
+}
+
+.item_plus_button button{
+	width: 165px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;	
+	border-color: white;
+	border: 1px solid;
+	}
+.item_minus_button button{
+	width: 165px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	background-color: black;
+	color: white;	
+	border-color: white;
+	border: 1px solid;
+	}
+.large_image img{ 
+	max-width: 100%; 
+	max-height: 100%;
+	border: 1px solid;
+	margin-bottom: 10px;
+}
+
+/*INDEX*/
+.prologue_text{
+margin-bottom: 20px;
+}
+.prologue_image img { 
+	max-width: 100%; 
+	max-height: 100%;
+	border: 1px solid;
+	margin-bottom: 20px;
+}
+.item_line_1 {
+overflow: auto;
+}
+
+.catalog_image img {
+	max-width: 100%; 
+	max-height: 100%;
+	border: 1px solid;
+	border-color: black;
+	margin-bottom: 20px;
+}
+.catalog_image_link img {
+	max-width: 100%; 
+	max-height: 100%;
+	border: 1px solid;
+	border-color: black;
+	margin-bottom: 20px;
+}
+ .catalog_name_link a {
+	color: black;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 16px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	height: 50px; /* Высота блока */
+    width: 150px; /* Ширина блока */;
+}
+.catalog_name p {
+	color: black;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 16px;
+	margin-bottom: 20px;
+	height: 75px; /* Высота блока */
+    width: 175px; /* Ширина блока */;
+}
+.catalog_name_link {
+	color: black;
+	font-weight: bold;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 16px;
+	margin-bottom: 20px;
+	height: 75px; /* Высота блока */
+	width: 175px; /* Ширина блока */;
+	}
+	
+.catalog_text p{
+	height: 50px; /* Высота блока */
+    width: 200px; /* Ширина блока */
+	margin-bottom: 30px;}
+	
+.catalog_price {
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.cart_button {
+	margin-bottom: 20px;
+	min-height: 20px;}
+
+.plus_button button{
+	width: 165px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: black;
+	color: white;	
+	border-color: white;
+	border: 1px solid;
+	}
+.minus_button button{
+	width: 165px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: black;
+	color: white;	
+	border-color: white;
+	border: 1px solid;
+	}

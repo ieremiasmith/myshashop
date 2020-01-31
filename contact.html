@@ -1,0 +1,71 @@
+	
+<html>
+<!-- служебная часть -->
+<head>
+  <!-- заголовок страницы -->
+  <title>MYSHASHOP</title>
+  <!-- настраиваем служебную информацию для браузеров -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- загружаем Бутстрап -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="style/style.css">
+<!-- шапочка с разделами -->
+</head>
+
+<body>
+	<!-- шапочка с разделами -->
+	<div class="container">
+	 	<div class="row">
+			<div class="col">
+     			<div class="contents"> <a href="index.html"> Главная страница</a> </div>
+   			</div>
+			 <div class="col">
+     			<div class="contents"> <a href="contact.html">Написать нам</a> </div>
+   			</div>
+			 <div class="col">
+     			<div class="contents"> <a href="cart.html">Что в корзине</a> </div>
+			</div>
+		</div>
+<!-- контейнер с формой обратной связи -->   
+<!-- контейнер заголовка этой формы -->   
+ <div class="container" >
+  <div class="row">
+    <div class="col-12">
+     <h1>Написать нам</h1>
+    </div>
+  </div>
+</div>
+ 	<!-- контейнер самой формочки 
+	Вот тут я не знаю как лучше.
+	Проще, как сделано - адрес почты с перенаправлением на адрес магазина. 
+	Но как-то можно же сделать и с сообщением на самом сайте, с этой формой с окошками. Только хз как пока. 
+	В смысле что писать в экшоне, чтобы не открывался установленный на компе почтовый клиент. -->   
+	<div class="container" >
+		<div class="row">	
+			<div class="col">				
+				<div class="email"> <img src="images/email-3-16.png"> <a href="mailto:myshashop@gmail.com">myshashop@gmail.com</a>
+				
+					<form id="contact-form" action="#" method="post">
+				<div class="email_window">
+					<input type="email" name="email" placeholder="   Адрес электронной почты">
+				</div>
+				<div class="message_text">
+					<textarea name="message" placeholder="   Текст сообщения"></textarea>
+ 				</div>
+				<div class="sent_button">
+					<button type="submit">Отправить</button>
+				</div>
+			</div>
+		
+		<div class="col">
+		<img src="images/main-2.jpg"> </div>
+	</div>
+ </div>
+
+</body>
+
+<!-- конец всей страницы -->
+
+</html>
